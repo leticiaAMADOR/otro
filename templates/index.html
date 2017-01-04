@@ -1,0 +1,20 @@
+$def with (dato)
+
+   <html>
+       <head> 
+          </head>
+       <h1>Unidades medicas en servicio</h1>
+       <body> 
+    <table border="1">
+
+        <tr>Somos una empresa privada comprometida con el cuidado y mejora de la salud de los mexicanos.</tr>
+        $for row in dato:
+        <tr>
+            <td > 
+        $row
+            </td>
+        </tr>
+    </table>
+
+       </body>
+   </html>
